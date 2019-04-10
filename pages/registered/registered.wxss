@@ -23,3 +23,173 @@
   height:100%;
   width:23%;
 }
+.Zc_kuang{
+height:750rpx;
+width:100%;
+border:1px solid red;
+margin-top:58rpx;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+.Le_kuang{
+height:100%;
+width:85%;
+border:1px solid red;
+}
+/* 输入框开始 */
+.shou {
+    height: 40rpx;
+    width: 100%;
+    margin-top: 20rpx;
+}
+
+.zi_du {
+    height: 100%;
+    width: 85%;
+    float: right;
+    font-size: 12px;
+    color: #888888;
+}
+input{
+	height:100%;
+	width:100%;
+}
+.tian_ip {
+    height: 80rpx;
+    width: 100%;
+    /* border-bottom:1px solid #bababa; */
+    border:1px solid red;
+    display: flex;
+    flex-direction: row;
+}
+
+.ar {
+    height: 80rpx;
+    width: 15%;
+    line-height: 80rpx;
+    text-align: center;
+    border:1px solid red;
+}
+
+.ar::after {
+    font-family: 'iconfont';
+    font-weight: 500;
+    font-size: 40rpx;
+    color: #7ce8d5;
+    font-style: normal;
+    content: '\e783';
+}
+
+.shu_ru {
+    height: 100%;
+    width: 85%;
+}
+
+.hol {
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+}
+
+.gk {
+    height: 40rpx;
+    width: 100%;
+    margin-top: 30rpx;
+
+}
+
+.zi_tu {
+    height: 100%;
+    width: 85%;
+    float: right;
+    font-size: 12px;
+    color: #888888;
+}
+
+.tian_mi {
+    height: 100rpx;
+    width: 100%;
+    /* border-bottom:1px solid #bababa; */
+    display: flex;
+    flex-direction: row;
+     border:1px solid red;
+}
+
+.ay{
+    height: 100%;
+    width: 15%;
+    line-height: 100rpx;
+    text-align: center;
+}
+
+.ay::after {
+    font-family: 'iconfont';
+    font-weight: 500;
+    font-size: 45rpx;
+    color: #7ce8d5;
+    font-style: normal;
+    content: '\e7d6';
+
+}
+
+
+.Yz_ku {
+    height: 100%;
+    width: 50%;
+}
+
+.pla {
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+}
+
+.Yz_m {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.bt {
+    height: 60rpx;
+    width: 100%;
+    line-height: 60rpx;
+    text-align: center;
+    font-size: 11px;
+    background-color: #41dad5;
+    color: white;
+    border-radius: 25rpx;
+
+}
+
+.bt::after {
+    border-radius: 25rpx;
+    border: 0;
+}
+.tian_an {
+    height: 80rpx;
+    width: 100%;
+    margin-top: 30rpx;
+}
+
+.btn2 {
+    height: 100%;
+    width: 100%;
+    background-color: #41dad5;
+    color: white;
+    border-radius: 98rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn2::after {
+    border-radius: 98rpx;
+    border: 0;
+}

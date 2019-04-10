@@ -1,4 +1,5 @@
 // pages/registered/registered.js
+const app = getApp()
 Page({
 
   /**

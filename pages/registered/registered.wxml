@@ -5,5 +5,79 @@
 <view class="top_log">
 <image class="top_logo" src="../images/logo.png"></image>
 </view>
+<!-- 门店 -->
+<view class="Zc_kuang">
+	<view class="Le_kuang">
+	<!-- 框开始 -->
+		<view class="shou">
+        <view class="zi_du">门店</view>
+    </view>
+    <view class="tian_ip">
+        <view class="ar"></view>
+        <view class="shu_ru">
+            <input placeholder="请输入手机号" placeholder-class="hol"></input>
+        </view>
+    </view>
+<!-- 第二个 -->
+<view class="shou">
+        <view class="zi_du">姓名</view>
+    </view>
+    <view class="tian_ip">
+        <view class="ar"></view>
+        <view class="shu_ru">
+            <input placeholder="请输入手机号" placeholder-class="hol"></input>
+        </view>
+    </view>
+<!-- 第三个 -->
+<view class="shou">
+        <view class="zi_du">手机号</view>
+    </view>
+    <view class="tian_ip">
+        <view class="ar"></view>
+        <view class="shu_ru">
+            <input placeholder="请输入手机号" placeholder-class="hol"></input>
+        </view>
+    </view>
+    <!-- 继续第四个？ -->
+<view class="gk">
+      <view class="zi_tu">验证码</view>
+  </view>
+  <view class="tian_mi">
+      <view class="ay"></view>
+      <view class="Yz_ku">
+          <input placeholder="请输入验证码" placeholder-class="pla"></input>
+      </view>
+      <view class="Yz_m">
+          <button class="bt">获取验证码</button>
+      </view>
+  </view>
+<view class="tian_an"><button class="btn2">登 录</button></view>
+
+
+	</view>
+
+
+
+
+
+
+
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </view>

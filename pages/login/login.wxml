@@ -1,48 +1,41 @@
 <!--pages/login/login.wxml-->
 <!-- 背景 -->
 <view class='ServiceCenter'>
-<!-- logo -->
-<view class="top_log">
-<image class="top_logo" src="../images/logo.png"></image>
-</view>
-<view class="center_kuai">
-  <view class="center_mo">
-
-    <view class="logo_kuang">
-    <!-- 输入手机号 -->
-    <view class="tian_iphone">
-     <view class="ao" style="height:100%;width:15%;border:1px solid red;"></view>
-     <view style="height:100%;width:80%;border:1px solid red;">
-     <input style="height:100%;width:100%;border:1px solid red;"></input>
-     </view>
+    <!-- logo -->
+    <view class="top_log">
+        <image class="top_logo" src="../images/logo.png"></image>
     </view>
-    <!-- 输入密码 -->
-    <view class="tian_mima" style="height:100rpx;width:100%;border:1px solid red;margin-top:60rpx;"></view>
-    <view class="tian_aniu" style="height:100rpx;width:100%;border:1px solid red;margin-top:60rpx;"></view>
+    <view class="center_kuai">
+        <view class="center_mo">
+            <view class="logo_kuang">
+                <!-- 输入手机号 -->
+                <view class="shouji">
+                    <view class="ziduan">手机号</view>
+                </view>
+                <view class="tian_iphone">
+                    <view class="ao"></view>
+                    <view class="shuru">
+                        <input placeholder="请输入手机号" placeholder-class="holder"></input>
+                    </view>
+                </view>
+                <!-- 输入验证码 -->
+                <view class="yanzhengk">
+                    <view class="zi">验证码</view>
+                </view>
+                <view class="tian_mima">
+                    <view class="ai"></view>
+                    <view class="Yz_kuang">
+                        <input placeholder="请输入验证码" placeholder-class="place"></input>
+                    </view>
+                    <view class="Yz_ma">
+                        <button class="btn">获取验证码</button>
+                    </view>
+                </view>
+                <view class="kuaisu">
+                    <view class="su">快速注册</view>
+                </view>
+                <view class="tian_aniu"><button class="btn1">登 录</button></view>
+            </view>
+        </view>
     </view>
-  </view>
-</view>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </view>
