@@ -1,0 +1,48 @@
+<!--pages/login/login.wxml-->
+<!-- 背景 -->
+<view class='ServiceCenter'>
+<!-- logo -->
+<view class="top_log">
+<image class="top_logo" src="../images/logo.png"></image>
+</view>
+<view class="center_kuai">
+  <view class="center_mo">
+
+    <view class="logo_kuang">
+    <!-- 输入手机号 -->
+    <view class="tian_iphone">
+     <view class="ao" style="height:100%;width:15%;border:1px solid red;"></view>
+     <view style="height:100%;width:80%;border:1px solid red;">
+     <input style="height:100%;width:100%;border:1px solid red;"></input>
+     </view>
+    </view>
+    <!-- 输入密码 -->
+    <view class="tian_mima" style="height:100rpx;width:100%;border:1px solid red;margin-top:60rpx;"></view>
+    <view class="tian_aniu" style="height:100rpx;width:100%;border:1px solid red;margin-top:60rpx;"></view>
+    </view>
+  </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

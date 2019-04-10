@@ -1,12 +1,36 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/login/login",
+    "pages/registered/registered",
+    "pages/index/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "报账小程序",
+    "enablePullDownRefresh": true,
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+     {
+        "pagePath": "pages/login/login",
+        "text": "首页",
+        "iconPath": "pages/images/tu1.png",
+        "selectedIconPath": "pages/images/tu2.png"
+      },
+      {
+        "pagePath": "pages/registered/registered",
+        "text": "购买",
+        "iconPath": "pages/images/tu4.png",
+        "selectedIconPath": "pages/images/tu3.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "pages/images/tu8.png",
+        "selectedIconPath": "pages/images/tu7.png"
+      }
+    ]
   }
 }
