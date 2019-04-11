@@ -1,83 +1,67 @@
-
 <!-- 背景 -->
 <view class='Service'>
-<!-- logo -->
-<view class="top_log">
-<image class="top_logo" src="../images/logo.png"></image>
-</view>
-<!-- 门店 -->
-<view class="Zc_kuang">
-	<view class="Le_kuang">
-	<!-- 框开始 -->
-		<view class="shou">
-        <view class="zi_du">门店</view>
+    <!-- logo -->
+    <view class="top_log">
+        <image class="top_logo" src="../images/logo.png"></image>
     </view>
-    <view class="tian_ip">
-        <view class="ar"></view>
-        <view class="shu_ru">
-            <input placeholder="请输入手机号" placeholder-class="hol"></input>
+    <!-- 门店 -->
+    <view class="Zc_kuang">
+        <view class="Le_kuang">
+            <!-- 框开始 -->
+            <view class="shou">
+                <view class="zi_du">门店</view>
+            </view>
+            <!-- 手写下拉框 -->
+            <view class="tian_ip">
+                <view class="ar"></view>
+                <view class='list-msg'>
+                    <!--下拉框  -->
+                    <view class='list-msg2' bindtap='bindShowMsg'>
+                        <text>{{tihuoWay}}</text>
+                        <image style='height:20rpx;width:20rpx;' src='../images/down.png'></image>
+                    </view>
+                </view>
+                <!-- 下拉需要显示的列表 -->
+                <view class="select_box" wx:if="{{select}}">
+                    <view class="select_one" bindtap="mySelect" data-name="重庆分店">重庆分店</view>
+                    <view class="select_one" bindtap="mySelect" data-name="东莞南城分店">东莞南城分店</view>
+                    <view class="select_one" bindtap="mySelect" data-name="东莞总店">东莞总店</view>
+                </view>
+            </view>
+            <!-- 第二个 -->
+            <view class="sh">
+                <view class="zi_dt">姓名</view>
+            </view>
+            <view class="tian_if">
+                <view class="ap"></view>
+                <view class="shu_rw">
+                    <input placeholder="请输入手机号" placeholder-class="hole"></input>
+                </view>
+            </view>
+            <!-- 第三个 -->
+            <view class="shoe">
+                <view class="zi_yu">手机号</view>
+            </view>
+            <view class="tian_hit">
+                <view class="aad"></view>
+                <view class="shu_yu">
+                    <input placeholder="请输入手机号" placeholder-class="holh"></input>
+                </view>
+            </view>
+            <!-- 继续第四个？ -->
+            <view class="gk">
+                <view class="zi_tu">验证码</view>
+            </view>
+            <view class="tian_mi">
+                <view class="ay"></view>
+                <view class="Yz_ku">
+                    <input placeholder="请输入验证码" placeholder-class="pla"></input>
+                </view>
+                <view class="Yz_m">
+                    <button class="bt">获取验证码</button>
+                </view>
+            </view>
+            <view class="tian_an"><button class="btn2">登 录</button></view>
         </view>
     </view>
-<!-- 第二个 -->
-<view class="shou">
-        <view class="zi_du">姓名</view>
-    </view>
-    <view class="tian_ip">
-        <view class="ar"></view>
-        <view class="shu_ru">
-            <input placeholder="请输入手机号" placeholder-class="hol"></input>
-        </view>
-    </view>
-<!-- 第三个 -->
-<view class="shou">
-        <view class="zi_du">手机号</view>
-    </view>
-    <view class="tian_ip">
-        <view class="ar"></view>
-        <view class="shu_ru">
-            <input placeholder="请输入手机号" placeholder-class="hol"></input>
-        </view>
-    </view>
-    <!-- 继续第四个？ -->
-<view class="gk">
-      <view class="zi_tu">验证码</view>
-  </view>
-  <view class="tian_mi">
-      <view class="ay"></view>
-      <view class="Yz_ku">
-          <input placeholder="请输入验证码" placeholder-class="pla"></input>
-      </view>
-      <view class="Yz_m">
-          <button class="bt">获取验证码</button>
-      </view>
-  </view>
-<view class="tian_an"><button class="btn2">登 录</button></view>
-
-
-	</view>
-
-
-
-
-
-
-
-</view>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </view>

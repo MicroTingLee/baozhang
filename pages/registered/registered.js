@@ -6,8 +6,21 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+     select: false,
+      tihuoWay: '请选择门店'
   },
+  bindShowMsg() {
+           this.setData({
+               select:!this.data.select
+           })
+      },
+    mySelect(e) {
+        var name = e.currentTarget.dataset.name
+        this.setData({
+            tihuoWay: name,
+            select: false
+        })
+    },
 
   /**
    * 生命周期函数--监听页面加载

@@ -26,7 +26,7 @@
 .Zc_kuang{
 height:750rpx;
 width:100%;
-border:1px solid red;
+/* border:1px solid red; */
 margin-top:58rpx;
 display: flex;
 flex-direction: row;
@@ -37,7 +37,7 @@ justify-content: center;
 .Le_kuang{
 height:100%;
 width:85%;
-border:1px solid red;
+/* border:1px solid red; */
 }
 /* 输入框开始 */
 .shou {
@@ -48,7 +48,7 @@ border:1px solid red;
 
 .zi_du {
     height: 100%;
-    width: 85%;
+    width: 84%;
     float: right;
     font-size: 12px;
     color: #888888;
@@ -57,11 +57,56 @@ input{
 	height:100%;
 	width:100%;
 }
+
+/* 下拉框样式 */
+.list-msg {
+		width:100%;
+    background-color: #fff;
+    position: relative;
+}
+
+
+.list-msg .list-msg2 {
+    height: 80rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10rpx;
+    font-size:12px;
+}
+
+.select_box {
+    background-color: #eee;
+    padding: 0 10rpx;
+    width: 70%;
+    position: absolute;
+    margin-top: 80rpx;
+    margin-left:12%;
+   font-size:12px;
+    z-index: 9999;
+    overflow: hidden;
+    animation: myfirst 0.5s;
+}
+
+@keyframes myfirst {
+    from {
+        height: 0rpx;
+    }
+
+    to {
+        height: 210rpx;
+    }
+}
+
+.select_one {
+    height: 60rpx;
+    line-height: 60rpx;
+    border-bottom: 1px solid #ccc;
+}
 .tian_ip {
     height: 80rpx;
     width: 100%;
-    /* border-bottom:1px solid #bababa; */
-    border:1px solid red;
+    border-bottom:1px solid #bababa;
     display: flex;
     flex-direction: row;
 }
@@ -71,7 +116,6 @@ input{
     width: 15%;
     line-height: 80rpx;
     text-align: center;
-    border:1px solid red;
 }
 
 .ar::after {
@@ -80,7 +124,7 @@ input{
     font-size: 40rpx;
     color: #7ce8d5;
     font-style: normal;
-    content: '\e783';
+    content: '\e60e';
 }
 
 .shu_ru {
@@ -93,7 +137,105 @@ input{
     width: 100%;
     font-size: 14px;
 }
+/* 第二个框 */
+.sh {
+    height: 40rpx;
+    width: 100%;
+    margin-top: 20rpx;
+}
 
+.zi_dt {
+    height: 100%;
+    width: 84%;
+    float: right;
+    font-size: 12px;
+    color: #888888;
+}
+.tian_if {
+    height: 80rpx;
+    width: 100%;
+    border-bottom:1px solid #bababa;
+    display: flex;
+    flex-direction: row;
+}
+
+.ap {
+    height: 80rpx;
+    width: 15%;
+    line-height: 80rpx;
+    text-align: center;
+}
+
+.ap::after {
+    font-family: 'iconfont';
+    font-weight: 500;
+    font-size: 40rpx;
+    color: #7ce8d5;
+    font-style: normal;
+    content: '\e640';
+}
+
+.shu_rw {
+    height: 100%;
+    width: 85%;
+}
+
+.hole {
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+}
+/* 第三个 */
+.shoe {
+    height: 40rpx;
+    width: 100%;
+    margin-top: 20rpx;
+}
+
+.zi_yu{
+    height: 100%;
+    width: 84%;
+    float: right;
+    font-size: 12px;
+    color: #888888;
+}
+
+.tian_hit {
+    height: 80rpx;
+    width: 100%;
+    border-bottom:1px solid #bababa;
+    display: flex;
+    flex-direction: row;
+}
+
+.aad {
+    height: 80rpx;
+    width: 15%;
+    line-height: 80rpx;
+    text-align: center;
+}
+
+.aad::after {
+    font-family: 'iconfont';
+    font-weight: 500;
+    font-size: 40rpx;
+    color: #7ce8d5;
+    font-style: normal;
+    content: '\e78a';
+}
+
+.shu_yu {
+    height: 100%;
+    width: 85%;
+}
+
+.holh {
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+}
+
+/* 第四个 */
 .gk {
     height: 40rpx;
     width: 100%;
@@ -112,10 +254,9 @@ input{
 .tian_mi {
     height: 100rpx;
     width: 100%;
-    /* border-bottom:1px solid #bababa; */
+    border-bottom:1px solid #bababa;
     display: flex;
     flex-direction: row;
-     border:1px solid red;
 }
 
 .ay{
@@ -187,6 +328,7 @@ input{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top:45rpx;
 }
 
 .btn2::after {
